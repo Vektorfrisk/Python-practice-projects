@@ -9,8 +9,8 @@ def is_password_valid(password):
             upper+=1
         if i.islower():
             lower+=1
-      if num_count >= 3:
-         if len(password)>= 8:
+    if num_count >= 3:
+        if len(password)>= 8:
             if upper>=1 and lower>=1:
                return(print("Password is valid"))
                 
